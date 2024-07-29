@@ -1,0 +1,54 @@
+input {
+  width: 240px;
+  height: 24px;
+  border-radius: 6px;
+  padding: 2px;
+  outline: none;
+}
+
+input:focus {
+  border-color: blue;
+}
+
+button {
+  width: 64px;
+  height: 24px;
+  padding: 2px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid;
+  width: 240px;
+  height: 100px;
+  overflow: auto;
+  scrollbar-base-color: white;
+}
+
+li {
+  padding: 1px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: rgb(73, 156, 229);
+}
+
+.category {
+  margin: 0;
+  background-color: blue;
+  color: white;
+}
+
+.category:hover {
+  background-color: blue;
+}
+
+.hidden {
+  display: none;
+}
